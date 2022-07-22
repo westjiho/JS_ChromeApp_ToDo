@@ -47,4 +47,6 @@ const num = document.querySelector("#quote span:last-child");
 const todaysQuote = quotes[Math.floor(Math.random()*quotes.length)];
 
 quote.innerText = todaysQuote.quote;
+quote.className = "quites";
 num.innerText = todaysQuote.num;
+num.className = "quites";
